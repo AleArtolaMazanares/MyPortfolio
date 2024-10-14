@@ -6,15 +6,15 @@ import TestComponents from "../../pages/test";
 import NavBarComponent from "../navBar";
 
 const RouterComponent = () => {
-    return(
-        <Routes>
-            <Route path="/aboutPages" element={<AboutPages/>}/>
-            <Route element={<NavBarComponent/>}>
-                <Route index element={<Home/>}/>
-                <Route path="/testComponents" element={<TestComponents/>}/>
-            </Route>
-        </Routes>
-    )
-}
+  return (
+    <Routes>
+      <Route path="/aboutPages" element={<AboutPages />} />
+      <Route element={<NavBarComponent />}>
+        <Route index element={<Home />} />
+        <Route path="/testComponents" element={<TestComponents />} />
+      </Route>
+    </Routes>
+  );
+};
 
-export default RouterComponent
+export default RouterComponent;
