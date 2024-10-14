@@ -1,37 +1,37 @@
-.containerGlobalNavBar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 10px;
+.containerGlobalNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
 }
 
-.linksNavBar{
-    display: flex;
-    gap: 20px;
-    margin-right: 10px;
+.linksNavBar {
+  display: flex;
+  gap: 20px;
+  margin-right: 10px;
 }
 
-.imageIconNavBar{
-    width: 21px;
-    height: 16px;
+.imageIconNavBar {
+  width: 21px;
+  height: 16px;
 }
 
-.imageIconNavBar > img{
-    width: 100%;
-    height: 100%;
+.imageIconNavBar > img {
+  width: 100%;
+  height: 100%;
 }
 
-.linksNavBarLinkTo{
-    color: #ffff;
+.linksNavBarLinkTo {
+  color: #ffff;
 }
 
-.LinksNavBarLinkToBackground{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 43px;
-    height: 16px;
-    border-radius: 4px;
-    background: white;
-    color: #23262c;
+.LinksNavBarLinkToBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 43px;
+  height: 16px;
+  border-radius: 4px;
+  background: white;
+  color: #23262c;
 }
