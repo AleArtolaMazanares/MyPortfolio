@@ -15,7 +15,7 @@ const NavBarComponent = () => {
         <div className="linksNavBar">
           <p className="linksNavBarLinkTo">Home</p>
           <p className="linksNavBarLinkTo">Home</p>
-          <p className="LinksNavBarLinkToBackground">Home</p>
+          <p className="LinksNavBarLinkToBackground">Curriculum</p>
         </div>
       </div>
       <Outlet />
