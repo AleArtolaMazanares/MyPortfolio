@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 .containerGlobalHome{
+    display: flex;
     height: 266px;
     margin-top: 18px;
-}
-
-.containerGlobalHome{
-    display: flex;
 }
 
 .textProfileHome{
     width: 50%;
     height: 100%;
+    margin-left: 5px;
 }
 
 .textHomeTitle{
@@ -20,7 +18,7 @@
     color: #ffff;  
     margin-top: 48px;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     height: 125px;
 }
 
@@ -61,3 +59,5 @@
     height: 100%;
     border-radius: 50%;
 }
+
+
