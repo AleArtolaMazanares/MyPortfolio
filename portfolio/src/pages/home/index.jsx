@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import Buttons from "../../components/buttons";
+import Points from "../../components/points";
 
 const Home = () => {
   return (
@@ -36,14 +37,36 @@ const Home = () => {
       </div>
       <div className="containerGlobalAboutMe">
         <div className="AboutMeContact">
-            <div className="titleAboutMeContact">
-                <p>About Me</p>
-            </div>
+          <div className="titleAboutMeContact">
+            <p>About Me</p>
+          </div>
+          <div className="linkTo">
+            <p>Github</p>
+            <p>Netifly</p>
+            <p>Linkeding</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Whatssap</p>
+          </div>
         </div>
         <div className="aboutMe">
-            <div className="linea">
-                <hr />
-            </div>
+          <div className="linea">
+            <hr />
+          </div>
+          <div className="description">
+            <p>
+              Soy un programador apasionado que busca siempre la excelencia en
+              cada línea de código. Disfruto transformar ideas en soluciones
+              innovadoras y funcionales. Mi enfoque se basa en la colaboración y
+              el aprendizaje continuo, lo que me permite adaptarme a nuevos
+              desafíos y tecnologías con facilidad.
+            </p>
+          </div>
+          <div className="pointsPage">
+            <Points text={'Creatividad: Desarrollo soluciones únicas y eficientes.'}/>
+            <Points text={'Creatividad: Desarrollo soluciones únicas y eficientes.'}/>
+            <Points text={'Creatividad: Desarrollo soluciones únicas y eficientes.'}/>
+          </div>
         </div>
       </div>
     </>

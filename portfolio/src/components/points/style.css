@@ -1,0 +1,19 @@
+.containerGlobalPointsComponent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 35px;
+    margin: 10px;
+}
+
+.circle{
+    width: 25px;
+    height: 16px;
+    border-radius: 50%;
+    background: #3DE2A1;
+}
+
+.textPointComponent{
+    margin-top: 10px;
+    color: #ffff;
+}
