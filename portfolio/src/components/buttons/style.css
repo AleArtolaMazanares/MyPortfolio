@@ -1,0 +1,11 @@
+.containerButtonsComponent{
+    width: 91px;
+    height: 20px;
+}
+
+
+
+.containerButtonsComponent > button{
+    width: 100%;
+    height: 100%;
+}

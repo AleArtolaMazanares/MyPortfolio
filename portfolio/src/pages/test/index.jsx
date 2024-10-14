@@ -1,10 +1,14 @@
 import React from "react";
+import Buttons from "../../components/buttons";
 
 
 const TestComponents = () => {
     return(
         <div>
-            <h1>TestComponents</h1>
+            <div>
+                <h1>Buttons</h1>
+                <Buttons/>
+            </div>
         </div>
     )
 }
