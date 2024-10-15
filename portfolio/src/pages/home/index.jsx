@@ -70,10 +70,27 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="proyectsHome">
-        <div className="proyectTitle">
+      <div className="projectsHome">
+        <div className="projectTitle">
           <p>Proyectos</p>
           <hr />
+        </div>
+        <div className="projectsImage">
+          <div className="imageProject">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDI5HSL2FRBkRjBxT3qxZcIkmgeMlzckpJQ&s" alt="" />
+          </div>
+          <div className="imageProject">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDI5HSL2FRBkRjBxT3qxZcIkmgeMlzckpJQ&s" alt="" />
+          </div>
+          <div className="imageProject">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDI5HSL2FRBkRjBxT3qxZcIkmgeMlzckpJQ&s" alt="" />
+          </div>
+          <div className="imageProject">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDI5HSL2FRBkRjBxT3qxZcIkmgeMlzckpJQ&s" alt="" />
+          </div>
+          <div className="imageProject">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDI5HSL2FRBkRjBxT3qxZcIkmgeMlzckpJQ&s" alt="" />
+          </div>
         </div>
       </div>
     </>
