@@ -69,6 +69,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="proyectsHome">
+        <div className="proyectTitle">
+          <p>Proyectos</p>
+          <hr />
+        </div>
+      </div>
     </>
   );
 };
