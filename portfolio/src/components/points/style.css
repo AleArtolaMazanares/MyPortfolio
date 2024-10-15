@@ -17,3 +17,7 @@
     margin-top: 10px;
     color: #ffff;
 }
+
+.textPointComponent > p{
+    font-size: 16px;
+}
