@@ -65,7 +65,7 @@ const Home = () => {
           </div>
           <div className="pointsPage">
             <Points text={'Creatividad: Desarrollo soluciones únicas y eficientes.'}/>
-            <Points text={'Adaptabilidad: Capacidad para aprender y dominar nuevas tecnologías rápidamente.'}/>
+            <Points margin={'20px'} text={'Adaptabilidad: Capacidad para aprender y dominar nuevas tecnologías rápidamente.'}/>
             <Points text={'Trabajo en equipo: Fomento un ambiente colaborativo y constructivo.'}/>
           </div>
         </div>
