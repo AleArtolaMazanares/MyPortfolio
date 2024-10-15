@@ -17,6 +17,7 @@
   font-style: normal;
   color: #ffff;
   margin-top: 48px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 14px;
   height: 125px;
@@ -116,7 +117,7 @@
 
 .pointsPage{
     display: grid;
-    gap: 25px;
+    gap: 34px;
 }
 
 
