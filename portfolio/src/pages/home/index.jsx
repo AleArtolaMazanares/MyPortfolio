@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Buttons from "../../components/buttons";
 import Points from "../../components/points";
+import { RedirectTo } from "../../components/functions/redirect";
 
 const Home = () => {
   return (
@@ -41,12 +42,12 @@ const Home = () => {
             <p>About Me</p>
           </div>
           <div className="linkTo">
-            <p>Github</p>
-            <p>Netifly</p>
-            <p>Linkeding</p>
-            <p>Facebook</p>
+            <p onClick={ () => RedirectTo('https://github.com/AleArtolaMazanares')}>Github</p>
+            <p onClick={() => RedirectTo('https://app.netlify.com/teams/aleartolamazanares/sites')}>Netifly</p>
+            <p onClick={() => RedirectTo('https://www.linkedin.com/in/alejandro-artola-99507528b/')}>Linkeding</p>
+            <p onClick={() => RedirectTo('https://www.facebook.com/aleu.prou')}>Facebook</p>
             <p>Instagram</p>
-            <p>Whatssap</p>
+            <p onClick={() => RedirectTo('https://wa.me/87420631?text=')}>Whatssap</p>
           </div>
         </div>
         <div className="aboutMe">
